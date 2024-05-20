@@ -1,0 +1,9 @@
+.aboutDrop{
+    filter: drop-shadow(2px 4px 6px #162c32);
+    transition: all ease-in-out .4s;
+    filter: grayscale(1);
+}
+.aboutDrop:hover{
+    filter: drop-shadow(2px 4px 6px #162c32);
+    filter: grayscale(0);
+}

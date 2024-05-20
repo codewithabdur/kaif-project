@@ -1,0 +1,42 @@
+.drop{
+    filter: drop-shadow(4px 2px 8px #b49898);
+}
+
+.dropblakish{
+    filter: drop-shadow(4px 2px 8px #111);
+}
+
+.homeImg{
+    height: 30rem;
+}
+
+.index{
+    z-index: 30;
+}
+.indexten{
+    z-index: 10;
+}
+
+
+@media screen and (max-width: 600px) {
+    .homeContainer{
+        flex-direction: column-reverse;
+
+        h2{
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+
+        .homeLink{
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+
+    .homeImg{
+        height: 15rem;
+    }
+}

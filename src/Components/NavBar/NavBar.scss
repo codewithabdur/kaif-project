@@ -1,0 +1,101 @@
+
+.icon {
+  display: none;
+}
+
+
+
+ul a {
+  color: #111;
+  // border: 1px solid #05ffa7;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+
+ul a:hover {
+  // background: #05f16f;
+  padding: 8px;
+  // border-radius: 8px;
+  // filter: drop-shadow(4px 4px 6px #ff0101);
+  transition: all .2s ease-in-out;
+}
+
+ul a:first-child {
+  // background: #05f16f;
+  padding: 8px;
+  // border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    display: block;
+    position: absolute;
+    top: 32px;
+    right: 154px;
+    font-size: 27px;
+    cursor: pointer;
+  }
+
+  ul a:hover{
+  background: none;
+  padding: 0;
+}
+  
+
+  ul a:first-child {
+  background: none;
+  padding: 0;
+}
+
+  .ul {
+    display: none;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+  }
+  .navContainer {
+    width: 100%;
+  }
+
+  .rightNav {
+    top: 0;
+    width: 0;
+    height: 100vh;
+    background-color: #2186eb;
+    border-radius: 8px;
+    ul {
+      a {
+        display: flex;
+        border: none;
+        color: #fff;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 40vh;
+      }
+    }
+  }
+
+  .leftNav {
+    left: 2rem;
+  }
+
+  .activeUl {
+    width: 40vw;
+  }
+
+  .activeUlList {
+    display: flex;
+  }
+}
+@media screen and (max-width: 450px) {
+  .icon {
+    right: 143px;
+  }
+
+  .activeUl {
+    width: 60vw;
+  }
+}

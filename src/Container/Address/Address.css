@@ -1,0 +1,8 @@
+.animationupDown{
+    animation: upDown 1s  ease infinite ;
+}
+
+@keyframes upDown {
+    0%{transform: translateY(20px);}
+    100%{transform: translate(0px);}
+}

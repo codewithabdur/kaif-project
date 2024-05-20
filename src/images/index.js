@@ -1,0 +1,7 @@
+export { default as logo } from "./logo.png"
+export { default as bg } from "./background.jpg"
+export { default as bg1 } from "./bg1.jpg"
+export { default as profile } from "./kaif-removebg-preview.png"
+export { default as about } from "./kaif1.jpg"
+export { default as bg2 } from "./kaifbg.jpg"
+export { default as service  } from "./service.png"
